@@ -153,6 +153,14 @@ Note: For servers that also support the SMART App Launch Framework, there is som
         A string containing a JWT listing the server's endpoints, as defined in <a href="#signed-metadata-elements">Section 2.3</a> below.
       </td>
     </tr>
+    <tr>
+      <td><code>registration_group/code></td>
+      <td><span class="label label-success">required</span></td>
+      <td>
+        An uri that uniquely identifies a logical group of servers that share registrations. A registration for any server in this logical group registers the app for all servers in that group.         
+      </td>
+    </tr>
+
   </tbody>
 </table>
 

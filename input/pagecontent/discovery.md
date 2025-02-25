@@ -154,8 +154,8 @@ Note: For servers that also support the SMART App Launch Framework, there is som
       </td>
     </tr>
     <tr>
-      <td><code>registration_group/code></td>
-      <td><span class="label label-success">required</span></td>
+      <td><code>registration_group</code></td>
+      <td><span class="label label-success">optional</span></td>
       <td>
         An uri that uniquely identifies a logical group of servers that share registrations. A registration for any server in this logical group registers the app for all servers in that group.         
       </td>

@@ -156,7 +156,9 @@ Note: For servers that also support the SMART App Launch Framework, there is som
   </tbody>
 </table>
 
-An Authorization Server **MAY** include additional metadata elements in its metadata response as described in [UDAP Server Metadata]. However, a conforming client application might not support additional metadata elements.
+FHIR servers with the same registration_endpoint belong to the same logical group. A registration for any endpoint in this logical group registers the app for all endpoints in that group.
+
+A FHIR Server **MAY** include additional metadata elements in its metadata response as described in [UDAP Server Metadata]. However, a conforming client application might not support additional metadata elements.
 
 ### Signed metadata elements
 
